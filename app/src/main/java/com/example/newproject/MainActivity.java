@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         gotologinFragment();
     }
 
+   // ddd
     private void gotologinFragment() {
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.frameLayoutMain, new LoginFragment());
